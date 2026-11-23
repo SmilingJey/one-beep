@@ -1,0 +1,21 @@
+project_name: "one-beep"
+default_status: "Входящие"
+statuses: ["Входящие", "Готово к работе", "В работе", "На проверке", "Сделано"]
+labels: ["спецификация", "архитектура", "android", "интерфейс", "звук", "система", "дефект", "блокировано"]
+
+date_format: yyyy-mm-dd
+max_column_width: 40
+
+auto_open_browser: false
+hide_empty_columns: true
+default_port: 6423
+remote_operations: false
+
+auto_commit: false
+filesystem_only: false
+zero_padded_ids: 3
+bypass_git_hooks: false
+check_active_branches: false
+active_branch_days: 30
+
+task_prefix: "task"

@@ -1,0 +1,37 @@
+# Android / Gradle: local state and generated outputs
+.gradle/
+.kotlin/
+.cxx/
+.externalNativeBuild/
+build/
+captures/
+local.properties
+*.apk
+*.aab
+*.apks
+*.hprof
+
+# IDE and local workspace state
+.idea/
+*.iml
+.vscode/
+
+# Credentials and signing material
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+keystore.properties
+key.properties
+
+# Local tools, QA artifacts, logs and temporary Backlog state
+node_modules/
+data/
+*.log
+backlog/.locks/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
